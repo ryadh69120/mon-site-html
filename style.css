@@ -1,85 +1,68 @@
-/* Style de base */
+/* Global Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9; /* Couleur de fond douce */
+  color: #333; /* Texte gris foncé pour une meilleure lisibilité */
+  margin: 0;
+  padding: 0;
 }
 
+/* En-tête */
 header {
-    background: linear-gradient(to right, #4CAF50, #2e7d32);
-    color: white;
-    text-align: center;
-    padding: 60px 20px;
-    position: relative;
+  background-color: #4CAF50; /* Vert */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 2rem;
 }
 
-.header .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+/* Bouton d'appel à l'action */
+button {
+  background-color: #FF5733; /* Couleur orange vif */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
-header h1 {
-    font-size: 3em;
-    margin: 0;
+button:hover {
+  background-color: #FF4500; /* Changement de couleur au survol */
 }
 
-.subtitle {
-    font-size: 1.2em;
-    margin: 10px 0;
+/* Liens */
+a {
+  color: #4CAF50; /* Vert */
+  text-decoration: none;
 }
 
-.cta-btn {
-    display: inline-block;
-    background-color: #fff;
-    color: #4CAF50;
-    font-size: 1.2em;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 20px;
-    transition: background-color 0.3s;
+a:hover {
+  text-decoration: underline;
 }
 
-.cta-btn:hover {
-    background-color: #4CAF50;
-    color: white;
+/* Section principale */
+main {
+  padding: 20px;
 }
 
-h2 {
-    color: #4CAF50;
+h1, h2 {
+  font-family: 'Arial', sans-serif;
+  color: #333;
 }
 
 section {
-    margin: 20px;
-    padding: 20px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-ul li {
-    background: #f1f1f1;
-    margin: 10px 0;
-    padding: 10px;
-    border-radius: 5px;
-}
-
+/* Pied de page */
 footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: white;
-}
-
-footer a {
-    color: #4CAF50;
-    text-decoration: none;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
