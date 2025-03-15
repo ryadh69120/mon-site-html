@@ -1,1 +1,69 @@
-
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9; /* Couleur de fond douce */
+    color: #333; /* Texte gris foncé pour une meilleure lisibilité */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* En-tête */
+  header {
+    background-color: #4CAF50; /* Vert */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  /* Bouton d'appel à l'action */
+  button {
+    background-color: #FF5733; /* Couleur orange vif */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #FF4500; /* Changement de couleur au survol */
+  }
+  
+  /* Liens */
+  a {
+    color: #4CAF50; /* Vert */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Section principale */
+  main {
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  /* Pied de page */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
